@@ -3,6 +3,7 @@
 :root{
     --SoftRed: hsl(7, 99%, 70%);
     --Yellow: hsl(51, 100%, 49%);
+    --SoftYellow: hsl(51, 100%, 78%);
     --DarkCyan: hsl(167, 40%, 24%);
     --DarkBlue: hsl(198, 62%, 26%);
     --DarkModerateCyan: hsl(168, 34%, 41%);
