@@ -16,6 +16,7 @@
     --DarkGrayBlue: hsl(232, 10%, 55%);
     --GrayBlue: hsl(210, 4%, 67%);
     --White: hsl(0, 0%, 100%);
+    --HoverContact: hsl(200, 100%, 72%);
 }
 *{
     margin: 0;

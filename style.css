@@ -20,8 +20,15 @@ header{
     display: flex;
     align-items: center;
 }
-.menus-i{
+.menus-i .li{
     color: var(--White);
+    cursor: pointer;
+
+    transition-property: color;
+    transition-duration: .5s;
+}
+.menus-i .li:hover{
+    color: var(--Yellow);
 }
 ul{
     display: flex;
@@ -46,6 +53,14 @@ li{
     border-radius: 50px;
     font-size: 15px;
     letter-spacing: 1px;
+    cursor: pointer;
+
+    transition-property: color, background-color;
+    transition-duration: .5s;
+}
+.dif-li:hover{
+    background-color: var(--HoverContact);
+    color: var(--White);
 }
 .intro-nav{
     display: flex;
@@ -107,9 +122,21 @@ li{
 }
 .txt-ins .softyellow::before{
     background-color: var(--SoftYellow);
+
+    transition-property: all;
+    transition-duration: .5s;
+}
+.txt-ins .softyellow:hover::before{
+    background-color: var(--Yellow);
 }
 .txt-ins .softpink::before{
     background-color: var(--SoftPink);
+
+    transition-property: all;
+    transition-duration: .5s;
+}
+.txt-ins .softpink:hover::before{
+    background-color: var(--SoftRed);
 }
 .grid-part{
     display: grid;
@@ -173,7 +200,7 @@ li{
 }
 .txt-h3-plp{
     width: 100%;
-    height: 20vh;
+    height: 18vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -239,7 +266,13 @@ footer ul li{
 .icons ul li{
     margin: 0 10px;
     cursor: pointer;
+    font-size: 26px;
 
+    transition-property: color;
+    transition-duration: .3s;
+}
+.icons ul li:hover{
+    color: white;
 }
 .list-ft{
     display: flex;
@@ -249,4 +282,10 @@ footer ul li{
 .list-ft ul li{
     margin: 0 20px;
     cursor: pointer;
+
+    transition-property: color;
+    transition-duration: .3s;
+}
+.list-ft ul li:hover{
+    color: white;
 }
