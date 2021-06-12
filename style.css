@@ -20,6 +20,9 @@ header{
     display: flex;
     align-items: center;
 }
+.menus-il{
+    display: none;
+}
 .menus-i .li{
     color: var(--White);
     cursor: pointer;
@@ -29,6 +32,9 @@ header{
 }
 .menus-i .li:hover{
     color: var(--Yellow);
+}
+.checklabel{
+    display: none;
 }
 ul{
     display: flex;
@@ -92,7 +98,6 @@ li{
     max-width: 50vw;
 }
 .txt-ins{
-    display: block;
     max-width: 50vw;
 }
 .txt-grid h1{

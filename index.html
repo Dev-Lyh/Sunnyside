@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mobile.css">
     <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/graphicloads/food-drink/256/cherry-icon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/c805f5e37c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <title>Sunnyside</title>
 </head>
 <body>
@@ -26,10 +28,24 @@
                         <li class="dif-li">Contact</li>
                     </ul>
                 </div>
+                <input type="checkbox" name="checkbtn" id="checkbtn" class="checkbtn">
+                <label for="checkbtn" class="checklabel">
+                    <i class="fas fa-bars"></i>
+                </label>
             </div>
         </header>
+        <div class="menu-m">
+            <div class="menus-il items">
+                <ul>
+                    <li class="li items">About</li>
+                    <li class="li items">Services</li>
+                    <li class="li items">Projects</li>
+                    <li class="items cnt">Contact</li>
+                </ul>
+            </div>
+        </div>
         <nav class="intro-nav">
-            <div class="elements-int">
+            <div class="elements-int block">
                 <h1>We are creatives</h1>
                 <img src="./images/icon-arrow-down.svg" alt="">
             </div>
@@ -192,5 +208,14 @@
         </div>
     </footer>
     <!--#endregion-->
+    <script>
+        $(document).ready(function(){
+            $('.checkbtn').click(function(){
+                $('.items').toggleClass("show");
+                $('.block').toggleClass("none");
+            });
+        });
+    </script>
+
 </body>
 </html>

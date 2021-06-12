@@ -1,0 +1,99 @@
+@media screen and (max-width: 900px){
+    .intro-div{
+        background-image: url(./images/desktop/image-header.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 80vh;
+    }
+    .logo-img img{
+        width: 250px;
+    }
+    .menus-i{
+        display: none;
+    }
+    .menu-m{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .menus-il{
+        background-color: var(--White);
+        width: 700px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        height: 700px;
+    }
+    .items{
+        display: none;
+    }
+    .show{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .checklabel{
+        display: block;
+        font-size: 30pt;
+        color: var(--White);
+    }
+    #checkbtn{
+        display: none;
+    }
+    ul{
+        display: block;
+        text-align: center;
+        line-height: 128px;
+    }
+    .menus-il ul .li{
+        font-size: 40pt;
+        margin: 25px 0;
+        color: var(--DarkGrayBlue);
+    }
+    .cnt{
+        font-family: 'Fraunces', sans-serif;
+        font-size: 30pt;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 260px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: var(--Yellow);
+        margin: 25px 0;
+    }
+
+    .intro-nav{
+        display: flex;
+        height: 60vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .elements-int{
+        display: block;
+        width: 600px;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .block{
+        display: block;
+    }
+    .none{
+        display: none;
+    }
+    .elements-int h1{
+        color: var(--White);
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        font-size: 66pt;
+        font-weight: 900;
+        margin-bottom: 45px;
+    }
+    .elements-int img{
+        margin-top: 45px;
+        width: 90px;
+    }
+}
