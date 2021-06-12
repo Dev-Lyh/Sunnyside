@@ -2,8 +2,9 @@
 
 :root{
     --SoftRed: hsl(7, 99%, 70%);
+    --SoftPink: rgb(255, 219, 211);
     --Yellow: hsl(51, 100%, 49%);
-    --SoftYellow: hsl(51, 100%, 78%);
+    --SoftYellow: rgb(254, 244, 185);
     --DarkCyan: hsl(167, 40%, 24%);
     --DarkBlue: hsl(198, 62%, 26%);
     --DarkModerateCyan: hsl(168, 34%, 41%);
@@ -19,8 +20,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+*::before{
+    box-sizing: border-box;
+}
 body{
     font-size: 18px;
     font-family: 'Barlow', sans-serif;
     font-family: 'Fraunces', serif;
+}
+h1{
+    font-size: 36px;
 }
