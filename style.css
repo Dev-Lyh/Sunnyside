@@ -68,7 +68,7 @@ li{
 .elements-int img{
     margin-top: 45px;
 }
-.txt-egg{
+.txt-grid{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,23 +79,23 @@ li{
     display: block;
     max-width: 50vw;
 }
-.txt-egg h1{
+.txt-grid h1{
     width: 400px;
     color: var(--VeryDarkBlue);
 }
-.txt-egg p{
+.txt-grid p{
     font-family: 'Barlow', sans-serif;
     color: var(--GrayBlue);
     margin-top: 30px;
     margin-bottom: 30px;
     line-height: 30px;
 }
-.txt-egg .befores-a{
+.txt-grid .befores-a{
     text-decoration: none;
     color: var(--VeryDarkBlue);
     text-transform: uppercase;    
 }
-.txt-egg .befores-a::before{
+.txt-grid .befores-a::before{
     content: '';
     position: absolute;
     height: 10px;
@@ -110,11 +110,48 @@ li{
 .txt-ins .softpink::before{
     background-color: var(--SoftPink);
 }
-.egg-part{
+.grid-part{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-row: none;
 }
-.img-egg{
+.img-grid{
     overflow: hidden;
+    line-height: 0;
+    display: flex;
+    justify-content: center;
+}
+.g-f{
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+.img-gd{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+}
+.fl-gd{
+    margin-top: 350px;
+}
+.img-gd .txt-gd{
+    text-align: center;
+    width: 380px;
+    color: var(--DarkModerateCyan);
+}
+.txt-gd p{
+    font-family:'Barlow', sans-serif;
+    line-height: 28px;
+}
+.img-pg{
+    background-image: url(./images/desktop/image-photography.jpg);
+}
+.img-pg .txt-pg{
+    text-align: center;
+    width: 380px;
+    color: var(--DarkBlue);
+}
+.txt-pg p{
+    font-family:'Barlow', sans-serif;
+    line-height: 28px;
 }
