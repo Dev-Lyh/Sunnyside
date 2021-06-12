@@ -294,3 +294,8 @@ footer ul li{
 .list-ft ul li:hover{
     color: white;
 }
+
+/*mobile conf*/
+.img-flex{
+    display: none;
+}
