@@ -2,12 +2,14 @@
 
 :root{
     --SoftRed: hsl(7, 99%, 70%);
-    --SoftPink: rgb(255, 219, 211);
+    --SoftPink: hsl(11, 100%, 91%);
     --Yellow: hsl(51, 100%, 49%);
-    --SoftYellow: rgb(254, 244, 185);
+    --SoftYellow: hsl(51, 97%, 86%);
     --DarkCyan: hsl(167, 40%, 24%);
     --DarkBlue: hsl(198, 62%, 26%);
     --DarkModerateCyan: hsl(168, 34%, 41%);
+    --LightCyanFooter: hsl(167, 44%, 70%);
+    --FooterItems: hsl(168, 45%, 32%);
 
     --VeryDarkBlue: hsl(212, 27%, 19%);
     --VeryDarkGrayBlue: hsl(213, 9%, 39%);
