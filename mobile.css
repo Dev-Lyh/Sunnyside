@@ -159,4 +159,105 @@
         display: flex;
         justify-content: center;
     }
+
+    /*?CLIENTS*/
+    .txt-h3-plp{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        text-transform: uppercase;
+        color: var(--GrayBlue);
+        font-size: 26pt;
+    }
+    .plp{
+        display: block;
+        width: 100%;
+        height: 70vh;
+    }
+    .client{
+        text-align: center;
+        width: 100%;
+        margin: 70px 0;
+    }
+    .client img{
+        width: 100px;
+        border-radius: 50px;
+    }
+    .tml-c{
+        color: var(--VeryDarkGrayBlue);
+        font-family: 'Barlow', sans-serif;
+        line-height: 28px;
+        padding: 0 190px;
+        font-size: 20pt;
+    }
+    .nm-c{
+        font-weight: 900;
+        font-size: 20pt;
+
+    }
+    aside{
+        font-size: 16pt;
+        font-family: 'Barlow', sans-serif;
+        color: var(--GrayBlue);
+    }
+    .grid-4{
+        grid-template-columns: repeat(2, 1fr);
+    }   
+    .img-g{
+        overflow: hidden;
+        line-height: 0;
+    }
+    .img-g img{
+        max-width: 50vw;
+    }
+
+    /*~FOOTER*/
+    footer{
+        height: 40vh;
+        width: 100%;
+        background-color: var(--LightCyanFooter);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .icons ul li{
+        cursor: pointer;
+        font-size: 32pt;
+        margin: 0 20px;
+    
+        transition-property: color;
+        transition-duration: .3s;
+    }
+    .icons ul li:hover{
+        color: white;
+    }
+    .ft-it, .ft-it ul, .ft-it ul li, .ft-it ul li img{
+        text-align: center;
+        display: inline;
+    }
+    .ft-it img{
+        width: 250px;
+    }
+    .list-ft{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .list-ft ul li{
+        font-size: 30pt;
+        margin: 0 20px;
+        cursor: pointer;
+    
+        transition-property: color;
+        transition-duration: .3s;
+    }
+    .list-ft ul li:hover{
+        color: white;
+    }
 }
