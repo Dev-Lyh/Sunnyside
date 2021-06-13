@@ -159,4 +159,19 @@
         display: flex;
         justify-content: center;
     }
+    /*^FOOTER*/
+    .ft-it, .ft-it ul, .ft-it ul li, .ft-it ul li img{
+        text-align: center;
+        display: inline;
+    }
+    .ft-it img{
+        width: 250px;
+    }
+    .list-ft{
+        font-size: 30px;
+    }
+    .icons ul li i{
+        font-size: 45px;
+        margin: 0 20px;
+    }
 }
