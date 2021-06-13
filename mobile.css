@@ -222,6 +222,10 @@
         justify-content: center;
         align-items: center;
     }
+    .ft-it, .ft-it ul, .ft-it ul li, .ft-it ul li img{
+        display: inline;
+        text-align: center;
+    }
     .icons{
         display: flex;
         flex-wrap: wrap;
@@ -237,5 +241,4 @@
     .icons ul li:hover{
         color: white;
     }
-    
 }
